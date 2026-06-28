@@ -1,32 +1,32 @@
-# SQL Data Analyst Agent 🚀
+# SQL Data Analyst Agent 
 A high-performance Natural Language to SQL (NL2SQL) Agent designed for reliable business intelligence. Built using LangChain and LangGraph, this agent transforms complex user questions into structured, accurate insights while maintaining strict output fidelity.
 
 # 💡 The "Data Sandwich" Architecture
 Standard LLM wrappers often output "chatty" prose, which is difficult for automated systems to ingest. This agent uses the Data Sandwich pattern, enforcing a rigid Pydantic-based output schema to ensure every response is machine-readable and actionable:
 
-## The Hook (Executive Headline): A concise, high-level insight.
+ The Hook (Executive Headline): A concise, high-level insight.
 
-## The Truth (Data Table): Clean, formatted Markdown table.
+ The Truth (Data Table): Clean, formatted Markdown table.
 
-## The Strategy (Takeaways): Actionable business recommendations.
+ The Strategy (Takeaways): Actionable business recommendations.
 
 # 🛠 Tech Stack
-## LLM Engine: Groq API (llama-3.3-70b-versatile)
+LLM Engine: Groq API (llama-3.3-70b-versatile)
 
-## Security: Read-only database sandboxing
+Security: Read-only database sandboxing
 
-## Validation: Custom Pydantic-based schema enforcement
-<img width="1082" height="569" alt="image" src="https://github.com/user-attachments/assets/9c1872b3-dd71-4ba8-b6d9-873753b7c26c" />
+Validation: Custom Pydantic-based schema enforcement
+<img width="1223" height="879" alt="image" src="https://github.com/user-attachments/assets/6d876723-e0ac-4ae4-8104-2ac717c876c1" />
 
 
 # 📋 Key Features
-#Structured Output: Strictly enforced Pydantic schemas prevent hallucinations and ensure data format consistency.
+Structured Output: Strictly enforced Pydantic schemas prevent hallucinations and ensure data format consistency.
 
-#Security-First: Implements a read-only database sandbox to prevent unauthorized data modification.
+Security-First: Implements a read-only database sandbox to prevent unauthorized data modification.
 
-#Evaluation-Driven: Includes an automated regression test suite (eval/) to validate query accuracy against a gold-standard dataset.
+Evaluation-Driven: Includes an automated regression test suite (eval/) to validate query accuracy against a gold-standard dataset.
 
-## Installation & Setup
+# Installation & Setup
 Clone the repository:
 
 Bash
