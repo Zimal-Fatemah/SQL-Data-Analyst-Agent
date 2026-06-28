@@ -1,4 +1,3 @@
-[README.md](https://github.com/user-attachments/files/29434171/README.md)
 <p align="center">
   <h1 align="center"> NL2SQL Data Analyst</h1>
   <p align="center">A production-grade Natural Language → SQL agent with strict structured output.</p>
